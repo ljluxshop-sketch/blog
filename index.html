@@ -1,186 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt‑BR">
 <head>
-  <meta charset="utf-8">
-  <meta-name="viewport" content="width=device-width,initial-scale=1">
-  <title>Tendências de Beleza 2025 — O Guia Completo</title>
+  <meta charset="utf‑8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tendências de Beleza 2025 — Blog Beleza Delas</title>
   <meta name="description" content="Descubra as tendências de moda e beleza que vão dominar 2025, incluindo skincare, cabelos, maquiagem e estilo. Guia atualizado e simples de seguir.">
-  
   <style>
-    body { background: #f9f9f9; color:#222; font-family:'Segoe UI',Arial; margin:0; }
-
-    header {
-      background:#B215B2;
-      color:#fff;
-      padding:15px 20px;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      flex-wrap:wrap;
-      box-shadow:0 2px 10px rgba(0,0,0,0.1);
-    }
-
-    header .logo { font-size:22px; font-weight:700; display:flex; align-items:center; }
-    header .logo img { height:40px; margin-right:10px; }
-    header .logo a { color:#fff; text-decoration:none; }
-
+    body { background: #f9f9f9; color:#222; font-family:'Segoe UI',Arial,Helvetica,sans-serif; margin:0; }
+    header { background:#B215B2; color:#fff; padding:15px 20px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; box-shadow:0 2px 10px rgba(0,0,0,0.1); }
+    header .logo { font-size:26px; font-weight:700; color:#fff; font‑family: 'Segoe UI', Arial, sans‑serif; }
     nav { display:flex; gap:20px; flex-wrap:wrap; }
     nav a { color:#fff; text-decoration:none; font-size:15px; }
-
     .wrap { max-width:980px; margin:25px auto; padding:0 16px; }
-
-    article {
-      background:#fff;
-      padding:30px;
-      border-radius:10px;
-      border:1px solid #e5e5e5;
-      box-shadow:0 3px 10px rgba(0,0,0,0.05);
-    }
-
+    article { background:#fff; padding:30px; border-radius:10px; border:1px solid #e5e5e5; box-shadow:0 3px 10px rgba(0,0,0,0.05); }
     .meta { font-size:14px; color:#777; margin-bottom:15px; display:flex; gap:15px; flex-wrap:wrap; }
     .author { display:flex; gap:8px; align-items:center; }
-    .author-img { width:30px; height:30px; border-radius:50%; background:#eee; display:flex; align-items:center; justify-content:center; font-weight:bold; }
-
+    .author-img { width:30px; height:30px; border-radius:50%; background:#eee; display:flex; align-items:center; justify-content:center; font-weight:bold; color:#555; }
     h1 { font-size:34px; color:#003322; margin-bottom:10px; }
-
-    .hero {
-      width:100%;
-      border-radius:10px;
-      margin:20px 0;
-      height:420px;
-      object-fit:cover;
-    }
-
+    .hero { width:100%; border-radius:10px; margin:20px 0; height:420px; object-fit:cover; }
     article p { font-size:17px; line-height:1.75; margin:20px 0; }
-
-    article h2 {
-      font-size:24px;
-      color:#003322;
-      margin-top:30px;
-      border-left:4px solid #003322;
-      padding-left:10px;
-    }
-
-    blockquote {
-      border-left:4px solid #B215B2;
-      background:#fdf1ff;
-      color:#444;
-      padding:18px;
-      margin:25px 0;
-      border-radius:0 8px 8px 0;
-      font-style:italic;
-    }
-
-    /* Compartilhamento */
-    .share {
-      margin:35px 0;
-      padding:20px;
-      background:#f5f5f5;
-      border-radius:8px;
-      text-align:center;
-    }
-
+    article h2 { font-size:24px; color:#003322; margin-top:30px; border-left:4px solid #003322; padding-left:10px; }
+    blockquote { border-left:4px solid #B215B2; background:#fdf1ff; color:#444; padding:18px; margin:25px 0; border-radius:0 8px 8px 0; font-style:italic; }
+    .share { margin:35px 0; padding:20px; background:#f5f5f5; border-radius:8px; text-align:center; }
     .share h3 { font-size:15px; margin-bottom:15px; letter-spacing:.1em; }
-
-    .btn { padding:12px 18px; border-radius:8px; color:#fff; text-decoration:none; margin:5px; display:inline-flex; font-weight:600; }
+    .btn { padding:12px 18px; border-radius:8px; color:#fff; text-decoration:none; margin:5px; display:inline-flex; align-items:center; font-weight:600; transition:transform .2s,box-shadow .2s; }
     .fb { background:#1877f2; }
     .tw { background:#1da1f2; }
     .wa { background:#25d366; color:#083b1d; }
-
-    /* Navegação */
     .pn { margin:40px 0; padding:20px 0; border-top:1px solid #eee; border-bottom:1px solid #eee; display:flex; justify-content:space-between; }
     .pn a { color:#0066cc; text-decoration:none; font-weight:600; }
-
-    /* Veja também */
     .also h3 { font-size:22px; margin-bottom:20px; color:#003322; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
-    .card { background:#fff; border:1px solid #ddd; border-radius:10px; overflow:hidden; text-decoration:none; color:#222; }
+    .grid { display:grid; grid-template-columns:repeat(auto‑fit,minmax(260px,1fr)); gap:20px; }
+    .card { background:#fff; border:1px solid #ddd; border-radius:10px; overflow:hidden; text-decoration:none; color:#222; transition:transform .3s,box-shadow .3s; }
     .card img { width:100%; height:170px; object-fit:cover; }
-    .chip { position:absolute; top:10px; left:10px; background:#0c5b44; color:#fff; padding:4px 10px; font-size:12px; border-radius:50px; }
+    .chip { position:absolute; top:10px; left:10px; background:#0c5b44; color:#fff; padding:4px 10px; font-size:12px; border-radius:50px; font-weight:600; }
     .thumb { position:relative; }
     .p { padding:15px; }
     .t { font-weight:700; font-size:16px; margin-bottom:8px; }
-
-    /* Footer */
     footer { background:#B215B2; color:#ccc; padding:40px 20px; margin-top:40px; }
-    .footer-wrap { max-width:1080px; margin:auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:30px; }
-
+    .footer-wrap { max-width:1080px; margin:auto; display:grid; grid-template-columns:repeat(auto‑fit,minmax(200px,1fr)); gap:30px; }
     .copy { text-align:center; margin-top:20px; color:#aaa; font-size:13px; }
-
   </style>
 </head>
-
 <body>
 
 <header>
-  <div>
-     <h1> Logo Blog PopLoki"</h1>
-    <a href="../index.html">Blog Beleza Delas</a>
-  </div>
+  <div class="logo">Blog Beleza Delas</div>
   
   <nav>
     <a href="../index.html">Início</a>
-    <a href="../index.html#curiosidades">Curiosidades</a>
-    <a href="../index.html#curtas">Curtas</a>
-    <a href="../index.html#filmes">Filmes</a>
-    <a href="../index.html#series">Séries</a>
+    <a href="../index.html#moda">Moda</a>
+    <a href="../index.html#beleza">Beleza</a>
+    <a href="../index.html#tendencias">Tendências</a>
+    <a href="../index.html#dicas">Dicas</a>
   </nav>
 </header>
 
 <div class="wrap">
   <article>
-
     <div class="meta">
       <span>MODA & BELEZA — Tendências 2025</span>
       <span>22 de Janeiro, 2025</span>
       <div class="author">
-        <div class="author-img">BL</div>
+        <div class="author-img">BD</div>
         <span>Por: BeautyLab</span>
       </div>
     </div>
 
     <h1>Tendências de Beleza 2025: Pele Natural, Tons Quentes e Estilo Minimalista</h1>
 
-    <img class="hero" src="https://images.unsplash.com/photo-1522336572468-97b06e8ef143?q=80&w=1200&auto=format&fit=crop" alt="Mulher com skincare e cosméticos neutros">
+    <img class="hero" src="https://images.unsplash.com/photo-1518051870910-a46e30d9db16?q=80&w=1200&auto=format&fit=crop" alt="Mulher com maquiagem em tons quentes e look de estilo minimalista">
 
-    <p>
-      O universo da beleza está entrando em uma nova era — mais leve, mais consciente e muito mais conectada ao bem-estar.  
-      Em 2025, as tendências apontam para um visual natural, focado em texturas reais, brilho saudável e escolhas inteligentes.
-    </p>
+    <p>O universo da beleza está entrando em uma nova era — mais leve, mais consciente e muito mais conectada ao bem‑estar. Em 2025, as tendências apontam para um visual natural, focado em texturas reais, brilho saudável e escolhas inteligentes.</p>
 
     <h2>1. A volta da pele real</h2>
-    <p>
-      Depois de anos dominados por bases pesadas e camadas de contorno, a pele natural volta com força total.
-      O objetivo agora é: “parece que não passou nada, mas está impecável”.
-    </p>
+    <p>Depois de anos dominados por bases pesadas e camadas de contorno, a pele natural volta com força total. O objetivo agora é: “parece que não passou nada, mas está impecável”.</p>
 
-    <blockquote>
-      “A beleza de 2025 destaca a textura, o brilho e a identidade de cada pessoa.”
-    </blockquote>
+    <blockquote>“A beleza de 2025 destaca a textura, o brilho e a identidade de cada pessoa.”</blockquote>
 
     <h2>2. Maquiagem monocromática</h2>
-    <p>
-      Tons terrosos, rosados e pêssego serão os queridinhos do ano.  
-      Sombra, blush e batom conversando entre si criam harmonia instantânea.
-    </p>
+    <p>Tons terrosos, rosados e pêssego serão os queridinhos do ano. Sombra, blush e batom conversando entre si criam harmonia instantânea.</p>
 
     <h2>3. Cabelos com movimento</h2>
-    <p>
-      Ondas naturais, cortes médios e franjas levemente desfiadas dominam as tendências.
-      O foco é leveza, praticidade e estilo sem esforço.
-    </p>
+    <p>Ondas naturais, cortes médios e franjas levemente desfiadas dominam as tendências. O foco é leveza, praticidade e estilo sem esforço.</p>
 
     <h2>4. Skincare inteligente</h2>
-    <p>
-      Produtos multifuncionais, séruns “tudo em um” e rotinas mais curtas ganharam espaço.
-      Cuidados que unem hidratação + proteção + tratamento são o novo padrão.
-    </p>
+    <p>Produtos multifuncionais, séruns “tudo em um” e rotinas mais curtas ganharam espaço. Cuidados que unem hidratação + proteção + tratamento são o novo padrão.</p>
 
     <h2>5. Minimalismo estético</h2>
-    <p>
-      Menos itens, mais propósito. A beleza se torna mais sustentável, reduzindo excessos,
-      embalagens e focando em ingredientes limpos.
-    </p>
+    <p>Menos itens, mais propósito. A beleza se torna mais sustentável, reduzindo excessos, embalagens e focando em ingredientes limpos.</p>
 
     <div class="share">
       <h3>COMPARTILHE ESTE ARTIGO</h3>
@@ -192,36 +100,36 @@
     <div class="pn">
       <div>
         <div class="label">Artigo anterior</div>
-        <a href="beneficios-cafe.html">Benefícios do Café Especial</a>
+        <a href="cuidados-pele.html">Como Cuidar da Pele em Dias Quentes</a>
       </div>
-      <div style="text-align: right;">
+      <div style="text-align:right;">
         <div class="label">Próximo artigo</div>
-        <a href="guia-5g.html">Entre na Era 5G Agora</a>
+        <a href="acessorios-2025.html">Acessórios 2025: O que vai bombar</a>
       </div>
     </div>
 
     <div class="also">
       <h3>VEJA TAMBÉM</h3>
       <div class="grid">
-
         <a class="card" href="autoestima-dicas.html">
           <div class="thumb">
-            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=900&auto=format&fit=crop" alt="">
+            <img src="https://images.unsplash.com/photo-1495121605193-b116b5b9c5e4?q=80&w=900&auto=format&fit=crop" alt="Mulher se cuidando">
             <span class="chip">BELEZA</span>
           </div>
           <div class="p">
-            <div class="t">Dicas de Autoestima Para 2025</div>
+            <div class="t">Dicas de Autoestima para 2025</div>
             <div class="s">Pequenos hábitos para transformar sua rotina de cuidados.</div>
           </div>
         </a>
 
-        <a class="card" href="cuidados-pele.html">
+        <a class="card" href="looks-minimalistas.html">
           <div class="thumb">
-            <img src="https://images.unsplash.com/photo-1490699882308-7c75a0f0b2b5?q=80&w=900&auto=format&fit=crop" alt="">
-            <span class="chip">SKINCARE</span>
+            <img src="https://images.unsplash.com/photo-1536596220706-dc00c37f9b9e?q=80&w=900&auto=format&fit=crop" alt="Look minimalista feminino">
+            <span class="chip">MODA</span>
           </div>
           <div class="p">
-            <div class="t">Como Cuidar da Pele em Dias Quentes</div>
+            <div class="t">Looks Minimalistas que Vão Dominar 2025</div>
+            <div class="s">Menos é mais: como aderir ao estilo com classe.</div>
           </div>
         </a>
 
@@ -235,20 +143,21 @@
   <div class="footer-wrap">
     <div>
       <div class="footer-logo">
-        <img src="../img/logo2.png">
+        <img src="../img/logo2.png" alt="Logo Blog Beleza Delas">
       </div>
     </div>
     <div class="footer-col">
       <h4>Navegação</h4>
       <ul>
         <li><a href="../index.html">Início</a></li>
-        <li><a href="../index.html#curiosidades">Curiosidades</a></li>
+        <li><a href="../index.html#moda">Moda</a></li>
+        <li><a href="../index.html#beleza">Beleza</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <h4>Contato</h4>
       <ul>
-        <li>Email: suporte@blog.com</li>
+        <li>Email: contato@beleza‑delas.blog</li>
       </ul>
     </div>
   </div>
