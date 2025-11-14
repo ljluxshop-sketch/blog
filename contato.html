@@ -1,7 +1,4 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <!DOCTYPE html>
 <html lang="pt‑BR">
 <head>
   <meta charset="utf‑8">
@@ -57,456 +54,14 @@
     <a href="../index.html#tendencias">Tendências</a>
     <a href="../index.html#dicas">Dicas</a>
   </nav>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidade - Blog Beleza Delas</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-        }
+</header>
 
-        body {
-            background: #f9f9f9;
-            color: #222;
-            line-height: 1.6;
-        }
-
-        header {
-            background: #b215b2;
-            color: #fff;
-            padding: 15px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        header .logo {
-            font-size: 22px;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-        }
-
-        header .logo img {
-            height: 40px;
-            margin-right: 10px;
-        }
-
-        header .logo a {
-            color: white;
-            text-decoration: none;
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 15px;
-            transition: opacity 0.3s;
-            padding: 5px 0;
-            position: relative;
-        }
-
-        nav a:hover {
-            opacity: 0.8;
-        }
-
-        nav a::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: #fff;
-            transition: width 0.3s;
-        }
-
-        nav a:hover::after {
-            width: 100%;
-        }
-
-        .search {
-            margin-left: 20px;
-            position: relative;
-        }
-
-        .search input {
-            padding: 8px 12px;
-            border: none;
-            border-radius: 20px;
-            width: 200px;
-            font-size: 14px;
-        }
-
-        .search button {
-            position: absolute;
-            right: 5px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        .menu-toggle {
-            display: none;
-            flex-direction: column;
-            justify-content: space-around;
-            width: 30px;
-            height: 25px;
-            cursor: pointer;
-        }
-
-        .menu-toggle span {
-            height: 3px;
-            width: 100%;
-            background-color: #fff;
-            border-radius: 5px;
-            transition: all 0.3s;
-        }
-
-        .wrap {
-            max-width: 1080px;
-            margin: 20px auto;
-            padding: 0 16px;
-        }
-
-        .page-title {
-            text-align: center;
-            margin: 30px 0;
-            color: #003322;
-            font-size: 32px;
-            position: relative;
-            padding-bottom: 15px;
-        }
-
-        .page-title::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 3px;
-            background: #003322;
-        }
-
-        .privacy-content {
-            background: #fff;
-            border-radius: 8px;
-            padding: 40px;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.05);
-            margin-bottom: 40px;
-        }
-
-        .privacy-content h2 {
-            color: #003322;
-            margin: 30px 0 15px;
-            font-size: 24px;
-            border-left: 4px solid #003322;
-            padding-left: 10px;
-        }
-
-        .privacy-content h3 {
-            color: #003322;
-            margin: 25px 0 12px;
-            font-size: 20px;
-        }
-
-        .privacy-content p {
-            margin-bottom: 15px;
-            line-height: 1.7;
-        }
-
-        .privacy-content ul {
-            margin: 15px 0;
-            padding-left: 20px;
-        }
-
-        .privacy-content li {
-            margin-bottom: 8px;
-        }
-
-        .privacy-content a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        .privacy-content a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            background: #B215B2;
-            color: #ccc;
-            padding: 40px 20px;
-            margin-top: 1px;
-        }
-
-        .footer-wrap {
-            max-width: 1080px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-        }
-
-        .footer-logo {
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .footer-logo img {
-            height: 60px;
-            margin-right: 10px;
-        }
-
-        .footer-col h4 {
-            margin-bottom: 15px;
-            color: #fff;
-            font-size: 18px;
-            position: relative;
-            padding-bottom: 8px;
-        }
-
-        .footer-col h4::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 40px;
-            height: 2px;
-            background: #0066cc;
-        }
-
-        .footer-col ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .footer-col ul li {
-            margin-bottom: 8px;
-        }
-
-        .footer-col ul li a {
-            color: #ccc;
-            text-decoration: none;
-            font-size: 14px;
-            transition: color 0.3s;
-        }
-
-        .footer-col ul li a:hover {
-            color: #fff;
-        }
-
-        .social-icons {
-            display: flex;
-            gap: 15px;
-            margin-top: 15px;
-            justify-content: center;
-        }
-
-        .social-icons a {
-            color: #444;
-            background: #fff;
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background 0.3s;
-        }
-
-        .social-icons a:hover {
-            background: #0066cc;
-        }
-
-        .copy {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 13px;
-            color: #aaa;
-            border-top: 1px solid #444;
-            padding-top: 20px;
-        }
-
-        .site-footer {
-            background: #2C2C2C;
-            color: #ecf0f1;
-            padding: 8px 0;
-        }
-        
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
-        }
-        
-        .footer-left, .footer-right {
-            flex: 1;
-        }
-        
-        .footer-right {
-            text-align: right;
-        }
-        
-        .footer-title {
-            font-size: 18px;
-            font-weight: 600;
-            margin-bottom: 5px;
-            color: #fff;
-        }
-        
-        .copyright {
-            font-size: 15px;
-            opacity: 0.9;
-        }
-        
-        .footer-divider {
-            height: 1px;
-            background: linear-gradient(to right, transparent, rgba(236, 240, 241, 0.3), transparent);
-            margin: 15px 0;
-        }
-        
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 10px 15px;
-            }
-            
-            .menu-toggle {
-                display: flex;
-                position: absolute;
-                top: 15px;
-                right: 20px;
-            }
-            
-            nav {
-                display: none;
-                width: 100%;
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 10px;
-                margin-top: 10px;
-            }
-            
-            nav.active {
-                display: flex;
-            }
-            
-            .search {
-                margin-left: 0;
-                width: 100%;
-                margin-top: 10px;
-            }
-            
-            .search input {
-                width: 100%;
-            }
-            
-            .footer-wrap {
-                grid-template-columns: 1fr;
-                gap: 25px;
-            }
-            
-            .page-title {
-                font-size: 26px;
-            }
-            
-            .footer-container {
-                flex-direction: column;
-                text-align: center;
-                gap: 15px;
-            }
-            
-            .footer-right {
-                text-align: center;
-            }
-            
-            .privacy-content {
-                padding: 25px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            header .logo {
-                font-size: 18px;
-            }
-            
-            header .logo img {
-                height: 30px;
-            }
-            
-            .privacy-content {
-                padding: 20px;
-            }
-            
-            .privacy-content h2 {
-                font-size: 22px;
-            }
-            
-            .privacy-content h3 {
-                font-size: 18px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <!-- Cabeçalho -->
-    <header>
-        <div class="logo">
-            <img src="img/logo1.png" alt="Logo Blog">
-            <a href="index.html">Blog</a>
-        </div>
-        
-        <div class="menu-toggle" id="mobile-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        
-        <nav id="main-nav">
-            <a href="index.html">Início</a>
-            <a href="index.html#curiosidades">Curiosidades</a>
-            <a href="index.html#curtas">Curtas</a>
-            <a href="index.html#filmes">Filmes</a>
-            <a href="index.html#series">Séries</a>
-            <div class="search">
-                <input type="text" placeholder="Pesquisar...">
-                <button>🔍</button>
-            </div>
-        </nav>
-    </header>
-
-   <!-- Conteúdo Principal -->
+<!-- Conteúdo Principal -->
     <div class="wrap">
         <h1 class="page-title">Contato</h1>
         
         <div class="contact-content">
-            <p><strong>A sua opinião é muito importante para nós Do Beleza Delas.</strong> Se você tem perguntas, comentários, sugestões ou deseja obter mais informações sobre algum dos temas abordados em nosso blog, nossa equipe está à disposição para atender você. A sua participação é essencial para que possamos continuar oferecendo conteúdo relevante e de qualidade.</p>
+            <p><strong>A sua opinião é muito importante para nós na Poploki.</strong> Se você tem perguntas, comentários, sugestões ou deseja obter mais informações sobre algum dos temas abordados em nosso blog, nossa equipe está à disposição para atender você. A sua participação é essencial para que possamos continuar oferecendo conteúdo relevante e de qualidade.</p>
             
             <h2>Fale Conosco</h2>
             
@@ -517,24 +72,58 @@
             </div>
             
             <h2>Compromisso com a Privacidade</h2>
-            <p>No Beleza Delas, a privacidade de nossos leitores é tratada com seriedade. Todas as informações fornecidas serão utilizadas apenas para responder às suas solicitações ou para aprimorar sua experiência em nosso site. Para mais detalhes, consulte nossa <a href="politica-privacidade.html">Política de Privacidade</a>.</p>
+            <p>Na Poploki, a privacidade de nossos leitores é tratada com seriedade. Todas as informações fornecidas serão utilizadas apenas para responder às suas solicitações ou para aprimorar sua experiência em nosso site. Para mais detalhes, consulte nossa <a href="politica-privacidade.html">Política de Privacidade</a>.</p>
             
             <h2>Agradecimento</h2>
-            <p>Agradecemos pelo seu interesse No Beleza Delas. Seja para enviar uma dúvida, compartilhar sugestões ou simplesmente entrar em contato, ficaremos muito satisfeitos em receber sua mensagem.</p>
+            <p>Agradecemos pelo seu interesse na Poploki. Seja para enviar uma dúvida, compartilhar sugestões ou simplesmente entrar em contato, ficaremos muito satisfeitos em receber sua mensagem.</p>
             <p>Nosso objetivo é fortalecer a comunicação com nossos leitores e construir uma comunidade informada, engajada e conectada.</p>
         </div>
-    
-    <!-- Rodapé Principal -->
-    <footer style="background:#B215B2; color:#fff; padding:40px 20px; margin-top:40px;">
+    </div>
+<footer style="background:#B215B2; color:#fff; padding:40px 20px; margin-top:40px;">
   <div class="footer-wrap" style="max-width:1080px; margin:auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:30px;">
+    
     <div>
       <h2 style="font-size:24px; color:white; font-weight:bold; margin-bottom:10px;">Blog Beleza Delas</h2>
       <p style="color:#ddd;">Inspirando sua beleza, estilo e autoestima todos os dias.</p>
+      <div class="social-icons" style="display:flex; gap:12px; margin-top:15px;">
+        <a href="#" style="background:white; color:#333; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold;">f</a>
+        <a href="#" style="background:white; color:#333; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold;">t</a>
+      </div>
     </div>
+
+    <div class="footer-col">
+      <h4 style="margin-bottom:12px; color:#fff;">Navegação</h4>
+      <ul style="list-style:none; padding:0;">
+        <li><a href="../index.html" style="color:#eee; text-decoration:none;">Início</a></li>
+        <li><a href="../index.html#moda" style="color:#eee; text-decoration:none;">Moda</a></li>
+        <li><a href="../index.html#beleza" style="color:#eee; text-decoration:none;">Beleza</a></li>
+        <li><a href="../index.html#dicas" style="color:#eee; text-decoration:none;">Dicas</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 style="margin-bottom:12px; color:#fff;">Links Úteis</h4>
+      <ul style="list-style:none; padding:0;">
+        <li><a href="PoliticasDePrivacidade.html" style="color:#eee; text-decoration:none;">Políticas de Privacidade</a></li>
+        <li><a href="../Contato.html" style="color:#eee; text-decoration:none;">Contato</a></li>
+        <li><a href="../Sobre.html" style="color:#eee; text-decoration:none;">Sobre Nós</a></li>
+        <li><a href="../Termos.html" style="color:#eee; text-decoration:none;">Termos de Uso</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 style="margin-bottom:12px; color:#fff;">Contato</h4>
+      <ul style="list-style:none; padding:0;">
+        <li><span style="color:#eee;">contato@belezadelas.blog</span></li>
+        <li><span style="color:#eee;">Av. Paulista, 1000, São Paulo</span></li>
+      </ul>
+    </div>
+
   </div>
+
   <div class="copy" style="text-align:center; margin-top:30px; font-size:13px; color:#ddd; border-top:1px solid #a125a1; padding-top:15px;">
     © 2025 — Todos os Direitos Reservados | Blog Beleza Delas
   </div>
 </footer>
-</body>
+  </body>
 </html>
