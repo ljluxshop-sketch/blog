@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="pt‑BR">
+<head>
+  <meta charset="utf‑8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tendências de Beleza 2025 — Blog Beleza Delas</title>
+  <meta name="description" content="Descubra as tendências de moda e beleza que vão dominar 2025, incluindo skincare, cabelos, maquiagem e estilo. Guia atualizado e simples de seguir.">
+  <style>
+    body { background: #f9f9f9; color:#222; font-family:'Segoe UI',Arial,Helvetica,sans-serif; margin:0; }
+    header { background:#B215B2; color:#fff; padding:15px 20px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; box-shadow:0 2px 10px rgba(0,0,0,0.1); }
+    header .logo { font-size:26px; font-weight:700; color:#fff; font‑family: 'Segoe UI', Arial, sans‑serif; }
+    nav { display:flex; gap:20px; flex-wrap:wrap; }
+    nav a { color:#fff; text-decoration:none; font-size:15px; }
+    .wrap { max-width:980px; margin:25px auto; padding:0 16px; }
+    article { background:#fff; padding:30px; border-radius:10px; border:1px solid #e5e5e5; box-shadow:0 3px 10px rgba(0,0,0,0.05); }
+    .meta { font-size:14px; color:#777; margin-bottom:15px; display:flex; gap:15px; flex-wrap:wrap; }
+    .author { display:flex; gap:8px; align-items:center; }
+    .author-img { width:30px; height:30px; border-radius:50%; background:#eee; display:flex; align-items:center; justify-content:center; font-weight:bold; color:#555; }
+    h1 { font-size:34px; color:#003322; margin-bottom:10px; }
+    .hero { width:100%; border-radius:10px; margin:20px 0; height:420px; object-fit:cover; }
+    article p { font-size:17px; line-height:1.75; margin:20px 0; }
+    article h2 { font-size:24px; color:#003322; margin-top:30px; border-left:4px solid #003322; padding-left:10px; }
+    blockquote { border-left:4px solid #B215B2; background:#fdf1ff; color:#444; padding:18px; margin:25px 0; border-radius:0 8px 8px 0; font-style:italic; }
+    .share { margin:35px 0; padding:20px; background:#f5f5f5; border-radius:8px; text-align:center; }
+    .share h3 { font-size:15px; margin-bottom:15px; letter-spacing:.1em; }
+    .btn { padding:12px 18px; border-radius:8px; color:#fff; text-decoration:none; margin:5px; display:inline-flex; align-items:center; font-weight:600; transition:transform .2s,box-shadow .2s; }
+    .fb { background:#1877f2; }
+    .tw { background:#1da1f2; }
+    .wa { background:#25d366; color:#083b1d; }
+    .pn { margin:40px 0; padding:20px 0; border-top:1px solid #eee; border-bottom:1px solid #eee; display:flex; justify-content:space-between; }
+    .pn a { color:#0066cc; text-decoration:none; font-weight:600; }
+    .also h3 { font-size:22px; margin-bottom:20px; color:#003322; }
+    .grid { display:grid; grid-template-columns:repeat(auto‑fit,minmax(260px,1fr)); gap:20px; }
+    .card { background:#fff; border:1px solid #ddd; border-radius:10px; overflow:hidden; text-decoration:none; color:#222; transition:transform .3s,box-shadow .3s; }
+    .card img { width:100%; height:170px; object-fit:cover; }
+    .chip { position:absolute; top:10px; left:10px; background:#0c5b44; color:#fff; padding:4px 10px; font-size:12px; border-radius:50px; font-weight:600; }
+    .thumb { position:relative; }
+    .p { padding:15px; }
+    .t { font-weight:700; font-size:16px; margin-bottom:8px; }
+    footer { background:#B215B2; color:#ccc; padding:40px 20px; margin-top:40px; }
+    .footer-wrap { max-width:1080px; margin:auto; display:grid; grid-template-columns:repeat(auto‑fit,minmax(200px,1fr)); gap:30px; }
+    .copy { text-align:center; margin-top:20px; color:#aaa; font-size:13px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Blog Beleza Delas</div>
+  
+  <nav>
+    <a href="../index.html">Início</a>
+    <a href="../index.html#moda">Moda</a>
+    <a href="../index.html#beleza">Beleza</a>
+    <a href="../index.html#tendencias">Tendências</a>
+    <a href="../index.html#dicas">Dicas</a>
+  </nav>
+</header>
+
+<div class="wrap">
+  <article>
+    <div class="meta">
+      <span>MODA & BELEZA — Tendências 2025</span>
+      <span>22 de Janeiro, 2025</span>
+      <div class="author">
+        <div class="author-img">BD</div>
+        <span>Por: BeautyLab</span>
+      </div>
+    </div>
+
+    <h1>Tendências de Maquiagem que Vão Bombar em 2025</h1>
+
+    <img class="hero" src="https://images.unsplash.com/photo-1596205521983-9c372fb3d4f1?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mulher com maquiagem em tons quentes e look de estilo minimalista">
+
+    <p>Se 2024 foi o ano da pele glow e do delineado gráfico, 2025 chega com uma proposta ainda mais ousada e criativa no universo da maquiagem. A beleza vem se tornando cada vez mais uma forma de expressão pessoal e, neste novo ano, as tendências seguem refletindo essa liberdade com técnicas modernas, cores intensas e uma estética que mistura o futurista com o retrô.</p>
+
+    <h2>2. Olhos em destaque: delineados criativos e neon</h2>
+  <p>Os olhos continuam como protagonistas. Em 2025, o delineado ganha novas formas — flutuantes, coloridos e até assimétricos. Cores como roxo lavanda, verde-limão e laranja vibrante são apostas certeiras. E sim, o neon segue firme, especialmente em festas e eventos noturnos.</p>
+
+  <h2>3. Boca glossy e tons intensos</h2>
+  <p>O gloss voltou com tudo, agora com fórmulas mais confortáveis e duradouras. Tons de vinho, framboesa e marrom ganham o topo da lista, seja em acabamento laqueado ou soft matte. A boca marcada volta com poder.</p>
+
+  <h2>4. Blush marcado e efeito lifting</h2>
+  <p>Esqueça o blush só nas maçãs do rosto. Em 2025, ele sobe em direção às têmporas para um efeito de lifting imediato. Os tons quentes — como pêssego queimado e terracota — dominam.</p>
+
+  <h2>5. Inspiração digital e filtros da vida real</h2>
+  <p>Com as redes sociais cada vez mais integradas ao cotidiano, surgem produtos e técnicas inspiradas nos filtros digitais: pele “photoshopada”, brilho holográfico e luz suave no ponto certo do rosto. A make agora também é realidade aumentada.</p>
+
+  <h2>Dicas finais</h2>
+  <p>Para seguir essas tendências, não é necessário um arsenal de produtos. O segredo está em adaptar as novidades ao seu estilo e valorizar sua beleza única. Aposte em produtos multifuncionais, cores que te fazem sentir bem e, claro, não abra mão da preparação da pele antes da maquiagem.</p>
+
+  <p><strong>Conclusão:</strong> Em 2025, a maquiagem será sobre liberdade, personalidade e impacto visual. Sinta-se livre para explorar, reinventar e usar a beleza como ferramenta de autoexpressão. O futuro é agora — e está lindo.</p>
+</div> class="share">
+      <h3>COMPARTILHE ESTE ARTIGO</h3>
+      <a class="btn fb" id="share-fb">Facebook</a>
+      <a class="btn tw" id="share-tw">Twitter</a>
+      <a class="btn wa" id="share-wa">WhatsApp</a>
+    </div>
+
+    <div class="pn">
+      <div>
+        <div class="label">Artigo anterior</div>
+        <a href="cuidados-pele.html">Como Cuidar da Pele em Dias Quentes</a>
+      </div>
+      <div style="text-align:right;">
+        <div class="label">Próximo artigo</div>
+        <a href="acessorios-2025.html">Acessórios 2025: O que vai bombar</a>
+      </div>
+    </div>
+
+     <div class="also">
+      <h3>VEJA TAMBÉM</h3>
+      <div class="grid">
+        <a class="card" href="curtas-premiados.html">
+          <div class="thumb">
+            <img src="https://plus.unsplash.com/premium_photo-1738067044250-4a8fe795184f?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jovens talentos">
+            <span class="chip">CURTAS</span>
+          </div>
+          <div class="p">
+            <div class="t">Brilho dos jovens talentos: curtas premiados</div>
+            <div class="s">Descubra os novos cineastas que estão revolucionando a indústria cinematográfica.</div>
+          </div>
+        </a>
+        <a class="card" href="apps-pets.html">
+          <div class="thumb">
+            <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Aplicativos para pets">
+            <span class="chip">APPS</span>
+          </div>
+          <div class="p">
+            <div class="t">Adicione filtros fofos ao pet em 30s</div>
+            <div class="s">Aplicativos divertidos para transformar as fotos do seu animal de estimação.</div>
+          </div>
+        </a>
+        <a class="card" href="../index.html">
+          <div class="thumb">
+            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=600&auto=format&fit=crop" alt="Página inicial">
+            <span class="chip">INÍCIO</span>
+          </div>
+          <div class="p">
+            <div class="t">Voltar à Página Inicial</div>
+            <div class="s">Confira mais artigos interessantes em nossa página principal</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </article>
+</div>
+
+<footer style="background:#B215B2; color:#fff; padding:40px 20px; margin-top:40px;">
+  <div class="footer-wrap" style="max-width:1080px; margin:auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:30px;">
+    
+    <div>
+      <h2 style="font-size:24px; color:white; font-weight:bold; margin-bottom:10px;">Blog Beleza Delas</h2>
+      <p style="color:#ddd;">Inspirando sua beleza, estilo e autoestima todos os dias.</p>
+      <div class="social-icons" style="display:flex; gap:12px; margin-top:15px;">
+        <a href="#" style="background:white; color:#333; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold;">f</a>
+        <a href="#" style="background:white; color:#333; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold;">t</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 style="margin-bottom:12px; color:#fff;">Navegação</h4>
+      <ul style="list-style:none; padding:0;">
+        <li><a href="../index.html" style="color:#eee; text-decoration:none;">Início</a></li>
+        <li><a href="../index.html#moda" style="color:#eee; text-decoration:none;">Moda</a></li>
+        <li><a href="../index.html#beleza" style="color:#eee; text-decoration:none;">Beleza</a></li>
+        <li><a href="../index.html#dicas" style="color:#eee; text-decoration:none;">Dicas</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 style="margin-bottom:12px; color:#fff;">Links Úteis</h4>
+      <ul style="list-style:none; padding:0;">
+        <li><a href="PoliticasDePrivacidade.html" style="color:#eee; text-decoration:none;">Políticas de Privacidade</a></li>
+        <li><a href="../Contato.html" style="color:#eee; text-decoration:none;">Contato</a></li>
+        <li><a href="../Sobre.html" style="color:#eee; text-decoration:none;">Sobre Nós</a></li>
+        <li><a href="../Termos.html" style="color:#eee; text-decoration:none;">Termos de Uso</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 style="margin-bottom:12px; color:#fff;">Contato</h4>
+      <ul style="list-style:none; padding:0;">
+        <li><span style="color:#eee;"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4b2824253f2a3f240b292e272e312a2f2e272a38652927242c">[email&#160;protected]</a></span></li>
+        <li><span style="color:#eee;">Av. Paulista, 1000, São Paulo</span></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="copy" style="text-align:center; margin-top:30px; font-size:13px; color:#ddd; border-top:1px solid #a125a1; padding-top:15px;">
+    © 2025 — Todos os Direitos Reservados | Blog Beleza Delas
+  </div>
+</footer>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"b96fbb80b20443739eeb7b0b137909bf","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
