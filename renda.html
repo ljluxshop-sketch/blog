@@ -3,33 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apresentação Pessoal</title>
+    <title>Olá! Conheça mais sobre mim</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         }
 
         body {
-            background-color: #f4f7f6;
-            color: #333;
+            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            padding: 20px;
+            padding: 40px 20px;
         }
 
-        .profile-container {
+        .card-container {
             background: #ffffff;
-            border-radius: 16px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
-            max-width: 400px;
+            border-radius: 24px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            max-width: 480px;
             width: 100%;
-            padding: 30px;
+            padding: 40px 30px 35px 30px;
             text-align: center;
+            position: relative;
+            margin-top: 60px; /* Espaço para a foto que fica para fora */
+        }
+
+        .profile-img-wrapper {
+            position: absolute;
+            top: -60px;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
         .profile-img {
@@ -37,88 +45,91 @@
             height: 120px;
             border-radius: 50%;
             object-fit: cover;
-            border: 4px solid #e2e8f0;
-            margin-bottom: 20px;
+            border: 5px solid #ffffff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
         }
 
-        .profile-name {
-            font-size: 24px;
+        .main-title {
+            font-size: 42px;
+            font-weight: 700;
+            color: #111827;
+            margin-top: 50px;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            font-size: 20px;
             font-weight: 600;
-            color: #1a202c;
-            margin-bottom: 8px;
-        }
-
-        .profile-tag {
-            display: inline-block;
-            background-color: #edf2f7;
-            color: #4a5568;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 14px;
+            color: #ff6b35; /* Tom laranja similar ao da referência */
             margin-bottom: 20px;
         }
 
-        .profile-bio {
-            font-size: 15px;
+        .description {
+            font-size: 16px;
             line-height: 1.6;
-            color: #4a5568;
-            margin-bottom: 25px;
+            color: #4b5563;
+            margin-bottom: 30px;
+            font-weight: 400;
         }
 
-        .btn-telegram {
+        .btn-action {
             display: flex;
             align-items: center;
             justify-content: center;
             background-color: #0088cc;
-            color: white;
+            color: #ffffff;
             text-decoration: none;
-            padding: 12px 24px;
-            border-radius: 8px;
+            padding: 14px 28px;
+            border-radius: 12px;
             font-weight: 600;
-            transition: background-color 0.3s ease;
-            gap: 10px;
+            font-size: 16px;
+            transition: all 0.2s ease;
+            gap: 12px;
+            box-shadow: 0 4px 12px rgba(0, 136, 204, 0.3);
         }
 
-        .btn-telegram:hover {
+        .btn-action:hover {
             background-color: #0077b3;
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(0, 136, 204, 0.4);
         }
 
-        .btn-telegram svg {
-            width: 20px;
-            height: 20px;
+        .btn-action svg {
+            width: 22px;
+            height: 22px;
             fill: currentColor;
         }
 
-        .footer-text {
-            margin-top: 25px;
-            font-size: 12px;
-            color: #a0aec0;
+        .footer-credit {
+            margin-top: 30px;
+            font-size: 11px;
+            color: #9ca3af;
         }
     </style>
 </head>
 <body>
 
-    <div class="profile-container">
-        <!-- Substitua o link abaixo pela URL da imagem da modelo -->
-        <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-img">
+    <div class="card-container">
+        <div class="profile-img-wrapper">
+            <img src="https://via.placeholder.com/150" alt="Foto de Apresentação" class="profile-img">
+        </div>
         
-        <h1 class="profile-name">Oi, eu sou a Larissa</h1>
-        <span class="profile-tag">Produtora de Conteúdo</span>
+        <h1 class="main-title">Olá!</h1>
+        <h2 class="subtitle">Um pouco sobre mim</h2>
         
-        <p class="profile-bio">
-            Seja bem-vindo ao meu espaço! Aqui compartilho um pouco da minha rotina, bastidores e novidades do meu dia a dia. Para interagir diretamente comigo e acompanhar tudo em tempo real, entre no meu canal oficial abaixo.
+        <p class="description">
+            Sou criadora de conteúdo digital e adoro compartilhar um design limpo, simples e exclusivo da minha rotina. Para interagir de perto, ver meus conteúdos diários e falar comigo diretamente, acesse meu canal abaixo!
         </p>
 
-        <!-- Substitua o # pelo link do seu canal ou bot do Telegram -->
-        <a href="#" class="btn-telegram" target="_blank">
-            <!-- Ícone Vetorial do Telegram -->
+        <a href="#" class="btn-action" target="_blank">
             <svg viewBox="0 0 24 24">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.24-5.54 3.65-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.74 3.79-1.65 6.32-2.74 7.59-3.27 3.61-1.5 4.36-1.76 4.85-1.77.11 0 .35.03.5.16.13.12.16.29.18.41.02.11.01.24 0 .38z"/>
             </svg>
-            Acompanhar no Telegram
+            Me acompanhe no Telegram
         </a>
 
-        <p class="footer-text">© 2026 Todos os direitos reservados.</p>
+        <p class="footer-credit">Imagens de acervo pessoal</p>
     </div>
 
 </body>
