@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mídia Kit Oficial | Apresentação</title>
+    <title>Portfólio Profissional | Estratégia de Mídia</title>
     <style>
         * {
             margin: 0;
@@ -13,8 +13,8 @@
         }
 
         body {
-            background-color: #fdfbf7;
-            color: #4a3e3d;
+            background-color: #f0f4f8;
+            color: #2c3e50;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,14 +27,17 @@
             max-width: 600px;
             width: 100%;
             border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
             overflow: hidden;
         }
 
-        /* Header / Semicapa baseada na primeira foto de referência */
+        /* Semicapa - Troque pelo link da sua imagem de fundo */
         .header-bg {
-            background: #f3ece4;
-            height: 140px;
+            background: #229ED9; /* Azul Telegram padrão caso a imagem falhe */
+            background-image: url('capa.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 160px;
             position: relative;
         }
 
@@ -44,6 +47,7 @@
             left: 40px;
         }
 
+        /* Foto de Perfil Redonda - Troque por perfil.jpg */
         .profile-img {
             width: 110px;
             height: 110px;
@@ -51,6 +55,7 @@
             object-fit: cover;
             border: 4px solid #ffffff;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            background-color: #e2e8f0;
         }
 
         /* Conteúdo Principal */
@@ -59,75 +64,78 @@
         }
 
         .label-top {
-            font-size: 12px;
+            font-size: 11px;
             text-transform: uppercase;
             letter-spacing: 2px;
-            color: #9c847c;
+            color: #0088cc;
             margin-bottom: 5px;
-            font-weight: 600;
+            font-weight: 700;
         }
 
         .main-name {
-            font-size: 32px;
-            color: #2c2221;
-            font-weight: 400;
+            font-size: 30px;
+            color: #1a202c;
+            font-weight: 700;
             line-height: 1.2;
         }
 
         .contacts {
             font-size: 14px;
-            color: #8c7a75;
-            margin-top: 8px;
+            color: #718096;
+            margin-top: 6px;
             margin-bottom: 30px;
             line-height: 1.4;
         }
 
         /* Seções de Texto */
         .section-title {
-            font-size: 14px;
+            font-size: 13px;
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            color: #9c847c;
+            color: #0088cc;
             margin-bottom: 12px;
-            font-weight: 600;
-            border-bottom: 1px solid #f3ece4;
+            font-weight: 700;
+            border-bottom: 2px solid #e2e8f0;
             padding-bottom: 5px;
         }
 
         .bio-text {
             font-size: 14px;
             line-height: 1.6;
-            color: #615351;
+            color: #4a5568;
             margin-bottom: 30px;
+            text-align: justify;
         }
 
-        /* Grid de Métricas (Igual ao arquivo 49afa15656cd31b35f72c01db7ea1a81.jpg) */
+        /* Grid de Métricas em Azul Telegram */
         .metrics-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 15px;
-            background: #faf7f2;
+            background: #f4f9fc;
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 12px;
             margin-bottom: 30px;
             text-align: center;
+            border: 1px solid #e1f0f8;
         }
 
         .metric-item h3 {
-            font-size: 18px;
-            color: #2c2221;
-            font-weight: 600;
+            font-size: 20px;
+            color: #0088cc;
+            font-weight: 700;
         }
 
         .metric-item p {
-            font-size: 11px;
+            font-size: 10px;
             text-transform: uppercase;
-            color: #9c847c;
+            color: #718096;
             margin-top: 4px;
             letter-spacing: 0.5px;
+            font-weight: 600;
         }
 
-        /* Duas colunas para os tópicos abaixo */
+        /* Duas colunas para tópicos */
         .topics-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -141,59 +149,62 @@
 
         .topics-list li {
             font-size: 13px;
-            color: #615351;
+            color: #4a5568;
             margin-bottom: 8px;
             position: relative;
             padding-left: 15px;
         }
 
         .topics-list li::before {
-            content: "•";
-            color: #9c847c;
+            content: "✓";
+            color: #0088cc;
             position: absolute;
             left: 0;
             font-weight: bold;
         }
 
-        /* Botão / CTA do Telegram Camuflado como Contato Comercial/Canal Oficial */
+        /* Bloco de Chamada para o Telegram */
         .cta-box {
-            background: #f3ece4;
-            padding: 20px;
-            border-radius: 8px;
+            background: #eef7fc;
+            border: 1px solid #d4ebf7;
+            padding: 25px;
+            border-radius: 12px;
             text-align: center;
         }
 
         .cta-box p {
-            font-size: 13px;
-            margin-bottom: 15px;
-            color: #4a3e3d;
+            font-size: 13.5px;
+            margin-bottom: 18px;
+            color: #2d3748;
+            line-height: 1.5;
         }
 
         .btn-telegram {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            background-color: #2c2221;
+            background-color: #0088cc;
             color: #ffffff;
             text-decoration: none;
-            padding: 12px 24px;
-            border-radius: 6px;
+            padding: 14px 24px;
+            border-radius: 8px;
             font-size: 13px;
-            font-weight: 600;
+            font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
             transition: background 0.2s ease;
-            gap: 8px;
+            gap: 10px;
             width: 100%;
+            box-shadow: 0 4px 12px rgba(0, 136, 204, 0.2);
         }
 
         .btn-telegram:hover {
-            background-color: #4a3e3d;
+            background-color: #0077b3;
         }
 
         .btn-telegram svg {
-            width: 16px;
-            height: 16px;
+            width: 18px;
+            height: 18px;
             fill: currentColor;
         }
 
@@ -213,71 +224,72 @@
 
     <div class="media-kit-container">
         
-        <!-- Topo / Semicapa -->
+        <!-- Topo / Semicapa (Busca o arquivo capa.jpg automaticamente) -->
         <div class="header-bg">
             <div class="profile-wrapper">
-                <!-- Foto Redonda Estilo Perfil -->
-                <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-img">
+                <!-- Foto de Perfil (Busca o arquivo perfil.jpg automaticamente) -->
+                <img src="perfil.jpg" alt="Foto de Perfil Profissional" class="profile-img" onerror="this.src='https://via.placeholder.com/150'">
             </div>
         </div>
 
-        <!-- Conteúdo Principal do Mídia Kit -->
+        <!-- Conteúdo Principal -->
         <div class="content">
-            <p class="label-top">Mídia Kit Oficial</p>
-            <h1 class="main-name">Rafaela Mendonça</h1>
-            <p class="contacts">@faelarafa_<br>contatofaelarafa@outlook.com</p>
+            <p class="label-top">Estrategista de Mídia & Growth</p>
+            <h1 class="main-name">Juliana Novaes</h1>
+            <p class="contacts">Publicitária e Social Media Campaigner<br>contato.juliananovaes@Insightmedia.com</p>
 
-            <!-- Sobre Mim -->
+            <!-- Sobre Mim (História adaptada) -->
             <h2 class="section-title">Sobre Mim</h2>
             <p class="bio-text">
-                Sou criadora de conteúdo de lifestyle, moda e viagens, apaixonada por explorar o mundo com estilo e leveza. Compartilho experiências autênticas, looks inspiradores e roteiros personalizados que conectam pessoas ao que há de mais bonito e inesquecível por aí. Meu conteúdo tem como missão inspirar mulheres a viverem suas próprias histórias com confiança, beleza e liberdade.
+                Atuo há mais de 8 anos nos bastidores do mercado digital como publicitária e estrategista de marketing de grandes marcas e personalidades de destaque. Minha especialidade é estruturar planos de posicionamento, construção de marcas e engajamento em massa. Por trás das cortinas das redes sociais, já coordenei campanhas de comunicação, lançamentos de grande escala e estratégias de captação orgânica para diversas figuras públicas e famosas, impulsionando a autoridade desses perfis e estruturando propagandas de alto impacto que escalaram suas audiências em todas as mídias.
             </p>
 
-            <!-- Métricas (Copia exata da foto de referência) -->
+            <!-- Métricas Empresariais -->
             <div class="metrics-grid">
                 <div class="metric-item">
-                    <h3>216,8 mil</h3>
-                    <p>Audiência</p>
+                    <h3>+15M</h3>
+                    <p>Alcance Gerado</p>
                 </div>
                 <div class="metric-item">
-                    <h3>3 mil</h3>
-                    <p>Stories por Visualizações em Média</p>
+                    <h3>8 Anos</h3>
+                    <p>De Experiência</p>
                 </div>
                 <div class="metric-item">
-                    <h3>9.700+</h3>
-                    <p>Seguidores</p>
+                    <h3>Top 10</h3>
+                    <p>Agência de Bastidores</p>
                 </div>
             </div>
 
-            <!-- Listas em Colunas (Temas e Por que trabalhar comigo) -->
+            <!-- Listas em Colunas -->
             <div class="topics-grid">
                 <div>
-                    <h2 class="section-title">Temas que Abordo</h2>
+                    <h2 class="section-title">Áreas de Atuação</h2>
                     <ul class="topics-list">
-                        <li>Viagens nacionais e internacionais</li>
-                        <li>Moda e estilo de vida</li>
-                        <li>Looks de viagem e roteiros personalizados</li>
+                        <li>Planejamento de Mídia Estratégica</li>
+                        <li>Branding para Figuras Públicas</li>
+                        <li>Gestão de Crise e Imagem Digital</li>
                     </ul>
                 </div>
                 <div>
-                    <h2 class="section-title">Por que trabalhar comigo?</h2>
+                    <h2 class="section-title">Resultados Entregues</h2>
                     <ul class="topics-list">
-                        <li>Conteúdo visualmente atrativo e autêntico</li>
-                        <li>Engajamento real e comunidade em crescimento</li>
-                        <li>Posicionamento elegante e aspiracional</li>
+                        <li>Crescimento acelerado multicanal</li>
+                        <li>Campanhas publicitárias autênticas</li>
+                        <li>Estruturação de comunidades engajadas</li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Seção de Fechamento / Botão do Telegram -->
+            <!-- Chamada para o Telegram -->
             <div class="cta-box">
-                <p>Para propostas comerciais, campanhas exclusivas ou acesso ao meu canal de transmissões diárias, entre em contato direto pelo aplicativo:</p>
-                <!-- Troque o # pelo link do seu Telegram -->
+                <p>Compartilho diariamente as principais métricas, sacadas de posicionamento e análises de bastidores que aplico na conta dos meus principais clientes corporativos através da nossa comunidade oficial.</p>
+                
+                <!-- Insira o link final da sua oferta no lugar do # -->
                 <a href="#" class="btn-telegram" target="_blank">
                     <svg viewBox="0 0 24 24">
                         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.24-5.54 3.65-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.74 3.79-1.65 6.32-2.74 7.59-3.27 3.61-1.5 4.36-1.76 4.85-1.77.11 0 .35.03.5.16.13.12.16.29.18.41.02.11.01.24 0 .38z"/>
                     </svg>
-                    Acessar Canal no Telegram
+                    Acessar Comunidade Estratégica
                 </a>
             </div>
 
