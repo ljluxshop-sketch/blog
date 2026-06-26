@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá! Conheça mais sobre mim</title>
+    <title>Mídia Kit Oficial | Apresentação</title>
     <style>
         * {
             margin: 0;
@@ -13,123 +13,275 @@
         }
 
         body {
-            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+            background-color: #fdfbf7;
+            color: #4a3e3d;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            padding: 40px 20px;
+            padding: 20px;
         }
 
-        .card-container {
+        .media-kit-container {
             background: #ffffff;
-            border-radius: 24px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-            max-width: 480px;
+            max-width: 600px;
             width: 100%;
-            padding: 40px 30px 35px 30px;
-            text-align: center;
-            position: relative;
-            margin-top: 60px; /* Espaço para a foto que fica para fora */
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            overflow: hidden;
         }
 
-        .profile-img-wrapper {
+        /* Header / Semicapa baseada na primeira foto de referência */
+        .header-bg {
+            background: #f3ece4;
+            height: 140px;
+            position: relative;
+        }
+
+        .profile-wrapper {
             position: absolute;
-            top: -60px;
-            left: 50%;
-            transform: translateX(-50%);
+            bottom: -50px;
+            left: 40px;
         }
 
         .profile-img {
-            width: 120px;
-            height: 120px;
+            width: 110px;
+            height: 110px;
             border-radius: 50%;
             object-fit: cover;
-            border: 5px solid #ffffff;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            border: 4px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
-        .main-title {
-            font-size: 42px;
-            font-weight: 700;
-            color: #111827;
-            margin-top: 50px;
-            margin-bottom: 10px;
-            letter-spacing: -1px;
+        /* Conteúdo Principal */
+        .content {
+            padding: 70px 40px 40px 40px;
         }
 
-        .subtitle {
-            font-size: 20px;
+        .label-top {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #9c847c;
+            margin-bottom: 5px;
             font-weight: 600;
-            color: #ff6b35; /* Tom laranja similar ao da referência */
-            margin-bottom: 20px;
         }
 
-        .description {
-            font-size: 16px;
-            line-height: 1.6;
-            color: #4b5563;
-            margin-bottom: 30px;
+        .main-name {
+            font-size: 32px;
+            color: #2c2221;
             font-weight: 400;
+            line-height: 1.2;
         }
 
-        .btn-action {
-            display: flex;
+        .contacts {
+            font-size: 14px;
+            color: #8c7a75;
+            margin-top: 8px;
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        /* Seções de Texto */
+        .section-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #9c847c;
+            margin-bottom: 12px;
+            font-weight: 600;
+            border-bottom: 1px solid #f3ece4;
+            padding-bottom: 5px;
+        }
+
+        .bio-text {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #615351;
+            margin-bottom: 30px;
+        }
+
+        /* Grid de Métricas (Igual ao arquivo 49afa15656cd31b35f72c01db7ea1a81.jpg) */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            background: #faf7f2;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .metric-item h3 {
+            font-size: 18px;
+            color: #2c2221;
+            font-weight: 600;
+        }
+
+        .metric-item p {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #9c847c;
+            margin-top: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Duas colunas para os tópicos abaixo */
+        .topics-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-bottom: 35px;
+        }
+
+        .topics-list {
+            list-style: none;
+        }
+
+        .topics-list li {
+            font-size: 13px;
+            color: #615351;
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .topics-list li::before {
+            content: "•";
+            color: #9c847c;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        /* Botão / CTA do Telegram Camuflado como Contato Comercial/Canal Oficial */
+        .cta-box {
+            background: #f3ece4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .cta-box p {
+            font-size: 13px;
+            margin-bottom: 15px;
+            color: #4a3e3d;
+        }
+
+        .btn-telegram {
+            display: inline-flex;
             align-items: center;
             justify-content: center;
-            background-color: #0088cc;
+            background-color: #2c2221;
             color: #ffffff;
             text-decoration: none;
-            padding: 14px 28px;
-            border-radius: 12px;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 13px;
             font-weight: 600;
-            font-size: 16px;
-            transition: all 0.2s ease;
-            gap: 12px;
-            box-shadow: 0 4px 12px rgba(0, 136, 204, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background 0.2s ease;
+            gap: 8px;
+            width: 100%;
         }
 
-        .btn-action:hover {
-            background-color: #0077b3;
-            transform: translateY(-1px);
-            box-shadow: 0 6px 16px rgba(0, 136, 204, 0.4);
+        .btn-telegram:hover {
+            background-color: #4a3e3d;
         }
 
-        .btn-action svg {
-            width: 22px;
-            height: 22px;
+        .btn-telegram svg {
+            width: 16px;
+            height: 16px;
             fill: currentColor;
         }
 
-        .footer-credit {
-            margin-top: 30px;
-            font-size: 11px;
-            color: #9ca3af;
+        @media (max-width: 500px) {
+            .topics-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            .metrics-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
         }
     </style>
 </head>
 <body>
 
-    <div class="card-container">
-        <div class="profile-img-wrapper">
-            <img src="https://via.placeholder.com/150" alt="Foto de Apresentação" class="profile-img">
+    <div class="media-kit-container">
+        
+        <!-- Topo / Semicapa -->
+        <div class="header-bg">
+            <div class="profile-wrapper">
+                <!-- Foto Redonda Estilo Perfil -->
+                <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-img">
+            </div>
         </div>
-        
-        <h1 class="main-title">Olá!</h1>
-        <h2 class="subtitle">Um pouco sobre mim</h2>
-        
-        <p class="description">
-            Sou criadora de conteúdo digital e adoro compartilhar um design limpo, simples e exclusivo da minha rotina. Para interagir de perto, ver meus conteúdos diários e falar comigo diretamente, acesse meu canal abaixo!
-        </p>
 
-        <a href="#" class="btn-action" target="_blank">
-            <svg viewBox="0 0 24 24">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.24-5.54 3.65-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.74 3.79-1.65 6.32-2.74 7.59-3.27 3.61-1.5 4.36-1.76 4.85-1.77.11 0 .35.03.5.16.13.12.16.29.18.41.02.11.01.24 0 .38z"/>
-            </svg>
-            Me acompanhe no Telegram
-        </a>
+        <!-- Conteúdo Principal do Mídia Kit -->
+        <div class="content">
+            <p class="label-top">Mídia Kit Oficial</p>
+            <h1 class="main-name">Rafaela Mendonça</h1>
+            <p class="contacts">@faelarafa_<br>contatofaelarafa@outlook.com</p>
 
-        <p class="footer-credit">Imagens de acervo pessoal</p>
+            <!-- Sobre Mim -->
+            <h2 class="section-title">Sobre Mim</h2>
+            <p class="bio-text">
+                Sou criadora de conteúdo de lifestyle, moda e viagens, apaixonada por explorar o mundo com estilo e leveza. Compartilho experiências autênticas, looks inspiradores e roteiros personalizados que conectam pessoas ao que há de mais bonito e inesquecível por aí. Meu conteúdo tem como missão inspirar mulheres a viverem suas próprias histórias com confiança, beleza e liberdade.
+            </p>
+
+            <!-- Métricas (Copia exata da foto de referência) -->
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <h3>216,8 mil</h3>
+                    <p>Audiência</p>
+                </div>
+                <div class="metric-item">
+                    <h3>3 mil</h3>
+                    <p>Stories por Visualizações em Média</p>
+                </div>
+                <div class="metric-item">
+                    <h3>9.700+</h3>
+                    <p>Seguidores</p>
+                </div>
+            </div>
+
+            <!-- Listas em Colunas (Temas e Por que trabalhar comigo) -->
+            <div class="topics-grid">
+                <div>
+                    <h2 class="section-title">Temas que Abordo</h2>
+                    <ul class="topics-list">
+                        <li>Viagens nacionais e internacionais</li>
+                        <li>Moda e estilo de vida</li>
+                        <li>Looks de viagem e roteiros personalizados</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="section-title">Por que trabalhar comigo?</h2>
+                    <ul class="topics-list">
+                        <li>Conteúdo visualmente atrativo e autêntico</li>
+                        <li>Engajamento real e comunidade em crescimento</li>
+                        <li>Posicionamento elegante e aspiracional</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Seção de Fechamento / Botão do Telegram -->
+            <div class="cta-box">
+                <p>Para propostas comerciais, campanhas exclusivas ou acesso ao meu canal de transmissões diárias, entre em contato direto pelo aplicativo:</p>
+                <!-- Troque o # pelo link do seu Telegram -->
+                <a href="#" class="btn-telegram" target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.24-5.54 3.65-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.74 3.79-1.65 6.32-2.74 7.59-3.27 3.61-1.5 4.36-1.76 4.85-1.77.11 0 .35.03.5.16.13.12.16.29.18.41.02.11.01.24 0 .38z"/>
+                    </svg>
+                    Acessar Canal no Telegram
+                </a>
+            </div>
+
+        </div>
     </div>
 
 </body>
