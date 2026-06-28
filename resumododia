@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gshow | Beleza e Longevidade no Carnaval</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f7f9fa;
+            color: #1a1a1a;
+            padding-bottom: 40px;
+        }
+
+        /* Topo do Portal de Notícias */
+        .navbar {
+            background-color: #0088cc; /* Azul dominante */
+            color: #ffffff;
+            padding: 15px 20px;
+            font-weight: 800;
+            font-size: 20px;
+            letter-spacing: -0.5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar span {
+            font-size: 12px;
+            text-transform: uppercase;
+            background: rgba(255,255,255,0.2);
+            padding: 4px 8px;
+            border-radius: 4px;
+            letter-spacing: 1px;
+        }
+
+        /* Container Principal */
+        .main-container {
+            max-width: 650px;
+            width: 100%;
+            margin: 20px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            overflow: hidden;
+            padding: 30px 25px;
+        }
+
+        /* Elementos da Matéria */
+        .category {
+            color: #0088cc;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .article-title {
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 1.25;
+            color: #111111;
+            margin-bottom: 15px;
+        }
+
+        .article-subtitle {
+            font-size: 16px;
+            color: #555555;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+
+        .author-box {
+            font-size: 12px;
+            color: #888888;
+            border-bottom: 1px solid #eeeeee;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        /* Conteúdo do Texto */
+        .article-content p {
+            font-size: 15.5px;
+            line-height: 1.65;
+            color: #333333;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .musa-section {
+            background: #f8fbfc;
+            border-left: 4px solid #0088cc;
+            padding: 15px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .musa-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #111111;
+            margin-bottom: 5px;
+        }
+
+        /* Box de Chamada / Botão do Telegram */
+        .cta-box {
+            background: #eef7fc;
+            border: 1px solid #cce6f5;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .cta-box h3 {
+            font-size: 18px;
+            color: #0088cc;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .cta-box p {
+            font-size: 13.5px;
+            margin-bottom: 18px;
+            color: #444444;
+            line-height: 1.5;
+        }
+
+        .btn-telegram {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0088cc;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 24px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background 0.2s ease;
+            gap: 10px;
+            width: 100%;
+            box-shadow: 0 4px 12px rgba(0, 136, 204, 0.2);
+        }
+
+        .btn-telegram:hover {
+            background-color: #0077b3;
+        }
+
+        .btn-telegram svg {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+        }
+
+        @media (max-width: 600px) {
+            .main-container {
+                margin: 10px;
+                padding: 20px 15px;
+            }
+            .article-title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra Superior Simulando Portal -->
+    <div class="navbar">
+        PORTAL NEWS
+        <span>Entretenimento</span>
+    </div>
+
+    <!-- Conteúdo da Notícia -->
+    <div class="main-container">
+        <p class="category">Carnaval & Saúde</p>
+        <h1 class="article-title">Segredos da Longevidade: Como as grandes musas do Carnaval mantêm a forma impecável ao longo dos anos</h1>
+        <h2 class="article-subtitle">Especialistas analisam os hábitos, rotinas de autocuidado e a boa forma de grandes nomes que marcam época na avenida.</h2>
+        
+        <div class="author-box">
+            Por Redação Portal • Atualizado há 5 minutos
+        </div>
+
+        <div class="article-content">
+            <p>
+                O Carnaval é conhecido mundialmente por sua energia, cores e, claro, pela presença marcante das musas que cruzam a passarela do samba. No entanto, o que tem chamado a atenção do público e de especialistas em saúde e estética nos últimos anos é a impressionante capacidade dessas mulheres de manterem corpos definidos, disposição e juventude mesmo com o passar do tempo.
+            </p>
+
+            <p>
+                Longe de fórmulas milagrosas, os resultados exibidos na avenida são frutos de estratégias bem desenhadas que envolvem nutrição celular, protocolos de queima calórica e quebras de padrão nos treinos convencionais. Abaixo, destacamos algumas das figuras mais emblemáticas e como elas lidam com a idade mantendo a alta performance.
+            </p>
+
+            <!-- Bloco 1: Paola Oliveira -->
+            <div class="musa-section">
+                <div class="musa-title">Paola Oliveira — 44 anos</div>
+                <p style="margin: 0; font-size: 14px; color: #444;">
+                    Referência absoluta de carisma e presença, a atriz e rainha de bateria impressiona a cada ano com curvas naturais e muita tonificação muscular. Sua preparação envolve foco intenso em resistência cardiovascular e ativação metabólica meses antes dos desfiles.
+                </p>
+            </div>
+
+            <!-- Bloco 2: Juliana Paes -->
+            <div class="musa-section">
+                <div class="musa-title">Juliana Paes — 47 anos</div>
+                <p style="margin: 0; font-size: 14px; color: #444;">
+                    Eterna referência de beleza brasileira, Juliana exibe uma silhueta esculpida baseada em treinos de força combinados com dança. A consistência em sua rotina de bem-estar ao longo das últimas décadas é apontada como a principal chave para a sua musculatura firme.
+                </p>
+            </div>
+
+            <!-- Bloco 3: Sabrina Sato -->
+            <div class="musa-section">
+                <div class="musa-title">Sabrina Sato — 45 anos</div>
+                <p style="margin: 0; font-size: 14px; color: #444;">
+                    Com uma das rotinas mais intensas da época festiva, dividindo-se entre estados, sua preparação foca em treinos de explosão e um cronograma alimentar voltado para a densidade muscular, provando que a idade é apenas um detalhe estatístico diante de uma rotina alinhada.
+                </p>
+            </div>
+
+            <!-- Bloco 4: Viviane Araújo -->
+            <div class="musa-section">
+                <div class="musa-title">Viviane Araújo — 51 anos</div>
+                <p style="margin: 0; font-size: 14px; color: #444;">
+                    Considerada uma das maiores lendas da avenida, Viviane mantém o posto com pernas torneadas e definição que desafiam o tempo. O foco dela está na musculação pesada combinada com estratégias de recuperação celular e hidratação profunda.
+                </p>
+            </div>
+
+            <p>
+                De acordo com especialistas em saúde estética, o grande diferencial dessas mulheres maduras reside na personalização de seus hábitos diários e no conhecimento de quais estímulos funcionam melhor para o organismo feminino após os 40 anos, gerando resultados que se sobressaem em qualquer vídeo ou holofote.
+            </p>
+
+            <!-- Box de Conversão do Telegram perfeitamente camuflado -->
+            <div class="cta-box">
+                <h3>Quer ter acesso aos protocolos reais?</h3>
+                <p>Nossa equipe de bastidores reuniu os exatos cronogramas de alimentação, exercícios de retenção e truques de definição usados por essas celebridades e compartilha tudo detalhadamente em nossa comunidade de dicas gratuitas.</p>
+                
+                <!-- Cole o link da sua oferta/grupo no lugar do # -->
+                <a href="#" class="btn-telegram" target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.24-5.54 3.65-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.74 3.79-1.65 6.32-2.74 7.59-3.27 3.61-1.5 4.36-1.76 4.85-1.77.11 0 .35.03.5.16.13.12.16.29.18.41.02.11.01.24 0 .38z"/>
+                    </svg>
+                    Acessar Comunidade de Dicas de Corpo & Beleza
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
